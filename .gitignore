@@ -43,6 +43,6 @@ UserInterfaceState.xcuserstate
 cors-policy.xml
 mobile-hub-project.zip
 dist/
-
+frontend/build/
 package-lock.json
 yarn.lock

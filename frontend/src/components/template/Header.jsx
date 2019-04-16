@@ -4,8 +4,11 @@ import React, { Component } from 'react';
 class Header extends Component {
     render() {
         return (
-            <aside className='header'>
-                Cabeçalho
+            <aside className='header d-none d-sm-flex flex-column'>
+                <h1 className='mt-3'>
+                    <i className={`fa fa-${this.props.icon}`} /> {this.props.title}
+                </h1>
+                <p className='lead text-muted'>{ this.props.subtitle }</p>
             </aside>
         );
     }

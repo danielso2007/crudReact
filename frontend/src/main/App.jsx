@@ -1,4 +1,6 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'font-awesome/css/font-awesome.min.css';
 import React, { Component } from 'react';
 
 import Logo from '../components/template/Logo';
@@ -12,7 +14,7 @@ class App extends Component {
             <div className='app'>
                 <Logo />
                 <Nav />
-                <Main />
+                <Main icon='home' title='Início' subtitle='Segundo Projeto do Capítulo de React.' />
                 <Footer />
             </div>
         );

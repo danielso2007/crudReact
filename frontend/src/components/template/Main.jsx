@@ -7,7 +7,7 @@ class Main extends Component {
     render() {
         return (
             <Fragment>
-                <Header />
+                <Header {...this.props} />
                 <main className='content'>
                     Conteúdo
                 </main>
