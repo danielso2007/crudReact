@@ -6,6 +6,9 @@
   "author": "Daniel da Silva Oliveira",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "release": "standard-version"
+  },
   "devDependencies": {
     "standard-version": "^5.0.2"
   },
