@@ -2,7 +2,7 @@ import './Home.css';
 import React, { Component } from 'react';
 import Main from '../template/Main';
 
-class Footer extends Component {
+class Home extends Component {
     render() {
         return (
             <Main icon='home' title='Início' subtitle='Segundo Projeto do Capítulo de React.'>
@@ -14,4 +14,4 @@ class Footer extends Component {
     }
 }
 
-export default Footer;
+export default Home;
