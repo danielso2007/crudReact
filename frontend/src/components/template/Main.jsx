@@ -8,8 +8,10 @@ class Main extends Component {
         return (
             <Fragment>
                 <Header {...this.props} />
-                <main className='content'>
-                    Conteúdo
+                <main className='container container-fluir'>
+                    <div className='p-3 mt-3'>
+                        { this.props.children }
+                    </div>
                 </main>
             </Fragment>
         );
