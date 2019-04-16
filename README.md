@@ -39,6 +39,32 @@ yarn add json-server
 ```shell
 yarn start
 ```
+# Criando frontend
+
+```shell
+npx create-react-app frontend
+cd frontend
+```
+
+Este projeto foi ccriado com [Create React App](https://github.com/facebook/create-react-app).
+
+### `npm start`
+
+Roda o aplicativo em modo desenvolvimento.<br>
+Abra [http://localhost:3000](http://localhost:3000) para ver no browser.
+
+A página será recarregada se você fizer edições.<br/>
+Você também verá quaisquer erros de lint no console.
+
+### npm run build
+
+Cria o aplicativo para produção na pasta build. 
+Ele agrupa corretamente o React no modo de produção e otimiza o build para obter o melhor desempenho.
+
+A compilação é reduzida e os nomes dos arquivos incluem os hashes. 
+Seu aplicativo está pronto para ser implantado!
+
+Veja a seção sobre a [implantação](https://facebook.github.io/create-react-app/docs/deployment) para mais informações.
 
 # Gerando o CHANGELOG do projeto
 
