@@ -5,18 +5,22 @@ import React, { Component } from 'react';
 
 import Logo from '../components/template/Logo';
 import Nav from '../components/template/Nav';
-import Home from '../components/home/Home';
 import Footer from '../components/template/Footer';
+
+import { HashRouter } from "react-router-dom";
+import Routes from './routes';
 
 class App extends Component {
     render() {
         return (
-            <div className='app'>
-                <Logo />
-                <Nav />
-                <Home/>
-                <Footer />
-            </div>
+            <HashRouter>
+                <div className='app'>
+                    <Logo />
+                    <Nav />
+                    <Routes />
+                    <Footer />
+                </div>
+            </HashRouter>
         );
     }
 }

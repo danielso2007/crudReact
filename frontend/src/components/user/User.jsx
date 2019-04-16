@@ -11,7 +11,7 @@ const headerProps = {
 class User extends Component {
     render() {
         return (
-            <Main {..headerProps}>
+            <Main {...headerProps}>
                 Cadastro de Usuários
             </Main>
         );
