@@ -1,0 +1,24 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Benjamin Emanuel Sales",
+            "email": "bbenjaminemanuelsales@tirantea.com.br"
+        },
+        {
+            "id": 2,
+            "name": "Arthur Renan Felipe Cavalcanti",
+            "email": "arthurrenanfelipecavalcanti-71@lojapetline.com.br"
+        },
+        {
+            "id": 3,
+            "name": "Cauã Edson Luiz Rocha",
+            "email": "ccauaedsonluizrocha@brastek.com.br"
+        },
+        {
+            "id": 4,
+            "name": "Bryan Kaique Aparício",
+            "email": "bryanbryankaiqueaparicio@academiagolf.com.br"
+        }
+    ]
+}

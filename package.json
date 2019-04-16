@@ -1,0 +1,16 @@
+{
+  "name": "crudReact",
+  "version": "0.1.0",
+  "description": "App de cadastro de usuários",
+  "repository": "git@github.com:danielso2007/crudReact.git",
+  "author": "Daniel da Silva Oliveira",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "standard-version": "^5.0.2"
+  },
+  "engines": {
+    "node": ">= 10.6.0",
+    "npm": ">= 6.1.0"
+  }
+}
