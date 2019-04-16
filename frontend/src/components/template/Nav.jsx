@@ -5,7 +5,10 @@ class Nav extends Component {
     render() {
         return (
             <aside className='menu-area'>
-                Navegação
+                <nav className='menu'>
+                    <a href='#/' className='active'><i className='fa fa-home'> Início</i></a>
+                    <a href='#/users'><i className='fa fa-users'> Usuários</i></a>
+                </nav>
             </aside>
         );
     }
